@@ -8,3 +8,24 @@ body {
     color: var(--secondary-color);
 }
 
+form {
+    border: groove;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 20rem;
+}
+
+input {
+    border: groove;
+    margin: 1rem;
+}
+
+button {
+    margin: 2em;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+}
+
