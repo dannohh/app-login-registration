@@ -1,6 +1,1 @@
-
-function checkPassword(enteredPassword correctPassword) {
-    if (enteredPassword === correctPassword) {
-        return true;
-    }
-}
+const userNameInput = document.querySelector('.userNameInput').value

@@ -4,6 +4,37 @@
 }
 
 body {
+    align-items: center;
     background-color: white;
     color: brown;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Caveat', cursive;
+    height: 100vh;
+    justify-content: center;   
+}
+
+form {
+    align-items: center;
+    background-color: beige;
+    border-radius: 10%;
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Caveat', cursive;
+    justify-content: center;  
+    padding: 8%;
+}
+
+input {
+margin: 2%;
+padding: 4%;
+border-radius: 8px;
+font-family: 'Poiret One', cursive;
+font-weight: bold;
+
+}
+
+h2 {
+    text-align: center;
 }
