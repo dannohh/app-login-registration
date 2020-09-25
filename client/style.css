@@ -17,9 +17,11 @@ body {
 form {
     align-items: center;
     background-color: beige;
-    border-radius: 10%;
+    border-radius: 30px;
+    border-style: solid;
     color: brown;
     display: flex;
+    height: 50%;
     flex-direction: column;
     font-family: 'Caveat', cursive;
     justify-content: center;  
@@ -27,8 +29,9 @@ form {
 }
 
 input {
-margin: 2%;
+margin-top: 30px;
 padding: 4%;
+border-width: thin;
 border-radius: 8px;
 font-family: 'Poiret One', cursive;
 font-weight: bold;
@@ -37,4 +40,10 @@ font-weight: bold;
 
 h2 {
     text-align: center;
+}
+
+button {
+    margin-top: 30%;
+    border-radius: 20px;
+
 }
